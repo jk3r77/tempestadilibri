@@ -1,0 +1,47 @@
+{
+  "name": "tempestadilibri",
+  "version": "0.1.0",
+  "description": "App Web About Books",
+  "main": "server.js",
+  "scripts": {
+    "babel": "babel-node server.js",
+    "build": "gulp",
+    "start": "npm run babel & npm run watch",
+    "watch": "gulp watch",
+    "styles": "gulp styles",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jk3r77/tempestadilibri.git"
+  },
+  "author": "jk3r77 <jk3r77@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jk3r77/tempestadilibri/issues"
+  },
+  "homepage": "https://github.com/jk3r77/tempestadilibri#readme",
+  "dependencies": {
+    "empty-element": "^1.0.0",
+    "express": "^4.14.1",
+    "materialize-css": "^0.98.0",
+    "page": "^1.7.1",
+    "pug": "^2.0.0-beta10",
+    "title": "^1.0.0",
+    "yo-yo": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-runtime": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  }
+}
